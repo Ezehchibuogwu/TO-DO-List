@@ -1,0 +1,74 @@
+#container{
+	border: 2px solid gray;
+	background-color: #f7f7f7;
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.color{
+	color: gray;
+	text-decoration: line-through;
+}
+
+h1{
+	background-color: #2980b9;
+	margin: 0;
+	color: white;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: normal;
+
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+li{
+	background-color: white;
+	height: 40px;
+	line-height: 40px;
+	color:#666; 
+}
+
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #2980b9;
+}
+p class="den"> HTML 5</li>
+			<p class="den"> CSS 3</p>
+			<p class="den"> JavaScript</p>
+			<p class="den"> jQuery</p>
+
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+input:focus{
+	border: 2px solid #2980b9;
+	background-color: white;
+	outline: none;
+}
+
+body{
+	background: #136a8a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	
+}
